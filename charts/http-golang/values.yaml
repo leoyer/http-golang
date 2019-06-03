@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.101.186.109:5000/leoyer/http-golang
+  tag: failed
   pullPolicy: IfNotPresent
 
 # define environment variables here as a map of key: value
